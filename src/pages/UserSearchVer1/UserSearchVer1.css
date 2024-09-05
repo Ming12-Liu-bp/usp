@@ -1,0 +1,185 @@
+:deep(.v-input__control) {
+  min-width: 50px;
+}
+
+.usp-search-btn {
+  min-width: 120px;
+  margin-top: -10px;
+}
+
+.usp-rolestable-link {
+  text-decoration: none;
+}
+
+.usp-table-item-companyName {
+  width: 300px;
+}
+
+.usp-table-item {
+  width: 200px;
+}
+
+.usp-show-roles-btn {
+  min-width: 150px;
+  height: 15px;
+  background-color: #f5f5f5;
+  color: rgba(0, 0, 0, .87);
+  box-shadow:
+  rgba(0, 0, 0, 0.2) 0 3px 1px -2px,
+  rgba(0, 0, 0, 0.14) 0 2px 2px 0,
+  rgba(0, 0, 0, 0.12) 0 1px 5px 0;
+  height: 36px;
+}
+
+.usp-show-roles-card-actions {
+  min-height: 15px;
+}
+
+.usp-snackbar {
+  top: -65px;
+}
+
+.usp-base-errorBody {
+  padding-top: 4px;
+  letter-spacing: normal;
+}
+
+.usp-snackbar-span {
+  width: 100%;
+}
+
+.usp-search-row {
+  margin-bottom: -15px;
+}
+
+.usp-search-checkbox {
+  margin-left: -7px;
+}
+
+.usp-snackbar-delete-body {
+  height: 76px;
+}
+
+.usp-snackbar-change-body {
+  height: 96px;
+}
+
+:deep(.v-data-table-header__content span) {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+:deep(.v-table--density-default) {
+  --v-table-header-height: 48px;
+  --v-table-row-height: 48px;
+}
+
+:deep(.v-data-table-footer__items-per-page) {
+  margin-right: 70px;
+}
+
+:deep(.v-data-table-footer__items-per-page > .v-select) {
+  margin-left: 20px;
+}
+
+.usp-rolestable-link :deep(.v-card-actions) {
+  min-height: 0;
+}
+
+:deep(.v-data-table__th) {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+:deep(.v-data-table__th--sorted) {
+  color: rgba(0, 0, 0);
+}
+
+:deep(.v-data-table-header__content .v-icon) {
+  --v-icon-size-multiplier: 0.85;
+}
+
+:deep(.v-data-table-footer) {
+  font-size: 12px;
+}
+
+:deep(.v-data-table-footer .v-field__field) {
+  height: 32px;
+}
+:deep(.v-data-table-footer .v-field__input) {
+  padding-top: 0;
+  padding-left: 5px;
+  padding-right: 0;
+}
+
+:deep(.v-data-table-footer .v-select__selection-text) {
+  font-size: 12px;
+}
+
+:deep(.v-data-table-footer .v-icon) {
+  --v-icon-size-multiplier: 0.85;
+}
+
+:deep(.v-data-table-footer__items-per-page > .v-select) {
+  width: 78px;
+}
+
+.usp-search-checkbox-row {
+  height: 78px;
+}
+
+:deep(
+    .v-table.v-table--hover
+      > .v-table__wrapper
+      > table
+      > tbody
+      > tr:hover
+      > td::after
+  ) {
+  --v-hover-opacity: 0.06;
+}
+
+.usp-tooltip {
+  opacity: 0.7;
+}
+
+:deep(.v-selection-control__input:hover::before) {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: currentColor;
+  pointer-events: none;
+  opacity: 0.25;
+}
+
+:deep(.v-selection-control--dirty .v-selection-control__input > .v-icon) {
+  opacity: 0.6;
+}
+
+:deep(.v-autocomplete .v-autocomplete__selection-text) {
+  text-overflow: clip;
+  letter-spacing: normal;
+}
+
+.usp-button-grey {
+  background-color: rgb(118, 118, 118);
+  box-shadow:
+    rgba(0, 0, 0, 0.2) 0 3px 1px -2px,
+    rgba(0, 0, 0, 0.14) 0 2px 2px 0,
+    rgba(0, 0, 0, 0.12) 0 1px 5px 0;
+}
+
+:deep(.v-field--focused .v-field__input) {
+  caret-color: rgb(25, 118, 210);
+}
+
+:deep(.v-data-table-rows-no-data) {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.usp-card-text-maximum {
+  color: rgba(0, 0, 0, 0.54);
+}

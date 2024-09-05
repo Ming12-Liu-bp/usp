@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "company_name": "companyA",
+    "company_name_en": "companyA",
+    "main_flg": "1"
+  },
+  {
+    "id": "2",
+    "company_name": "companyB",
+    "company_name_en": "companyB",
+    "main_flg": "0"
+  },
+  {
+    "id": "3",
+    "company_name": "companyC",
+    "company_name_en": "companyC",
+    "main_flg": "0"
+  },
+  {
+    "id": "4",
+    "company_name": "123company",
+    "company_name_en": "123company",
+    "main_flg": "0"
+  }
+]

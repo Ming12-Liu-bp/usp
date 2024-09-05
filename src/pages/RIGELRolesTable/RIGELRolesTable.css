@@ -1,0 +1,82 @@
+.usp-main-card {
+  margin-top: -65px;
+  height: 790px;
+  margin-bottom: -50px;
+}
+.usp-main-card-title {
+  margin-top: 9px;
+}
+.usp-div-table {
+  height: 500px;
+  border: solid 2px #dddddd;
+  margin: 30px;
+  margin-top: 38px;
+}
+.usp-table {
+  text-align: center;
+  height: 498px;
+}
+.usp-table :deep(.vxe-cell) {
+  text-align: left;
+  padding: 4px;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: rgb(33, 33, 33);
+  margin-right: -5px;
+}
+.usp-table :deep(.vxe-header--column) {
+  background-color: white;
+  border-right: 1px solid rgb(242, 242, 242);
+  border-bottom: 1px solid #ccc7c7;
+  padding-right: 0px;
+  height: 40px;
+}
+.usp-table :deep(.col_9) {
+  border-bottom: 1px solid rgb(242, 242, 242);
+}
+.usp-table :deep(.col_15) {
+  border-bottom: 1px solid rgb(242, 242, 242);
+}
+.usp-table :deep(.col_37) {
+  border-bottom: 1px solid rgb(242, 242, 242);
+}
+.usp-table :deep(.vxe-cell--title) {
+  font-family: sans-serif;
+  font-weight: 100;
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+}
+.usp-table :deep(.is--line:before) {
+  background-color: transparent;
+}
+.usp-table :deep(.col_3) {
+  border-right: 3px double rgb(242, 242, 242);
+}
+.usp-table :deep(.vxe-body--column) {
+  border-bottom: 1px solid #ccc7c7;
+}
+.usp-pager {
+  padding-top: 80px;
+}
+.usp-pager :deep(.vxe-select) {
+  margin-right: 60px;
+}
+.usp-page-row {
+  text-align: right;
+}
+.usp-par-page {
+  background-color: #eee;
+  height: 28px;
+  line-height: 18px;
+}
+.usp-par-page :deep(.v-btn) {
+  width: 32px;
+}
+.usp-button-row {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.usp-table :deep(.col--selected) {
+  box-shadow: inset 0px 0px 0px 2px rgb(94, 158, 214);
+}

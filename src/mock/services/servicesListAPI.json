@@ -1,0 +1,34 @@
+{
+  "transaction_id": "100",
+  "user_id": "22",
+  "company_id": "3",
+  "data": {
+    "service": [
+      {
+        "id": "1",
+        "name": "RIGEL",
+        "registerable_status": "1"
+      },
+      {
+        "id": "2",
+        "name": "CITRUS",
+        "registerable_status": "0"
+      },
+      {
+        "id": "3",
+        "name": "MAQROS",
+        "registerable_status": "0"
+      },
+      {
+        "id": "4",
+        "name": "app2",
+        "registerable_status": "0"
+      },
+      {
+        "id": "5",
+        "name": "app3",
+        "registerable_status": "1"
+      }
+    ]
+  }
+}

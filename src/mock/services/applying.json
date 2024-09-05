@@ -1,0 +1,23 @@
+[
+  {
+    "status": "Applying",
+    "name": "Example Name",
+    "useapp": "RIGEL, ESCHER, CITRUS, app1, app1, app2",
+    "USProle": "ITS",
+    "date": "2019/08/15 15:00:00"
+  },
+  {
+    "status": "Applying",
+    "name": "Example Second",
+    "useapp": "RIGEL",
+    "USProle": "ITS",
+    "date": "2019/08/15 17:00:00"
+  },
+  {
+    "status": "Rejected",
+    "name": "Example Third",
+    "useapp": "app1, app2",
+    "USProle": "ITS",
+    "date": "2019/08/10 15:00:00"
+  }
+]

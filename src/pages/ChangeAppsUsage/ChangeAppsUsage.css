@@ -1,0 +1,123 @@
+.usp-main {
+  position: relative;
+  padding-top: 0px;
+}
+.usp-main-container {
+  margin-left: -20px;
+}
+.v-container {
+  max-width: none;
+}
+.usp-border-grey {
+  border-color: rgba(0, 0, 0, 0.12);
+  width: 103.5%;
+  min-width: 451px;
+}
+.usp-app-setting-title {
+  margin-top: -3px;
+}
+.usp-service-disable-text {
+  color: black;
+}
+.usp-red-text {
+  color: red;
+}
+.usp-group-mb {
+  margin-top: -12px;
+}
+.usp-role-setting-title {
+  margin-top: 10px;
+  padding-bottom: 15px;
+  white-space: normal;
+}
+.usp-role-group {
+  margin-top: -50px;
+  padding-bottom: 26px;
+}
+.usp-role-group-name {
+  color: rgba(0, 0, 0, 0.54);
+}
+.usp-role-group-item {
+  height: 32px;
+}
+.usp-role-group-item :deep(.v-input__control) {
+  margin-top: -7px;
+}
+.usp-button-group-inner {
+  margin-top: -27px;
+}
+.usp-roles-chips {
+  border-color: rgba(0, 0, 0, 0.12);
+  width: 100;
+  min-width: 451px;
+}
+.usp-chip:hover {
+  background-color: #f2f2f2;
+}
+.usp-button-text-white :deep(.v-btn__content) {
+  color: white;
+}
+.usp-button-group-outer {
+  margin-top: -20px;
+}
+.usp-snack {
+  top: -65px;
+}
+.usp-snack :deep(.v-snackbar__content) {
+  padding-bottom: 6px;
+}
+.usp-snack-div {
+  margin-top: 4px;
+}
+.usp-snack-span {
+  width: 100%;
+}
+.usp-snack-msg {
+  padding-top: 24px;
+  padding-bottom: 17px;
+}
+.usp-snack-btn {
+  float: right;
+}
+.usp-card-actions-roles {
+  min-height: 82px;
+}
+
+:deep(.v-input__details) {
+  letter-spacing: normal;
+}
+:deep(.v-selection-control__input:hover::before) {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: currentColor;
+  opacity: 0;
+  pointer-events: none;
+  opacity: 0.15;
+}
+:deep(.v-input--error .v-field--error .v-field__input) {
+  caret-color: rgb(255, 82, 82);
+}
+:deep(.v-field--focused .v-field__input) {
+  caret-color: rgb(25, 118, 210);
+}
+:deep(.v-autocomplete .v-autocomplete__selection-text) {
+  text-overflow: clip;
+  letter-spacing: normal;
+}
+.usp-snack-limit-msg{
+  letter-spacing: normal;
+}
+.usp-snack-limit :deep(.v-btn__content){
+  font-size: 12px;
+}
+
+.usp-snack-limit :deep(.v-btn){
+  padding-right: 0;
+  padding-bottom: 6px;
+}
+

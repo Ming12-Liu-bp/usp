@@ -1,0 +1,62 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif !important;
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  outline: none;
+}
+
+.v-btn {
+  text-transform: none;
+}
+
+/*------------------------base------------------------*/
+
+/*base-button-green*/
+.base-button-green {
+  background-color: rgb(76, 175, 80);
+  color: white;
+  box-shadow:
+    rgba(0, 0, 0, 0.2) 0 3px 1px -2px,
+    rgba(0, 0, 0, 0.14) 0 2px 2px 0,
+    rgba(0, 0, 0, 0.12) 0 1px 5px 0;
+  height: 50px;
+  font-size: 14px;
+}
+/*.base-button-green.v-btn--disabled {*/
+/*  background-color: rgba(0, 0, 0, 0.12);*/
+/*  color: rgba(0, 0, 0, 0.26);*/
+/*  opacity: 1;*/
+/*  box-shadow: unset;*/
+/*}*/
+
+/*base-button-grey*/
+.base-button-grey {
+  background-color: rgb(240, 240, 240);
+  box-shadow:
+    rgba(0, 0, 0, 0.2) 0 3px 1px -2px,
+    rgba(0, 0, 0, 0.14) 0 2px 2px 0,
+    rgba(0, 0, 0, 0.12) 0 1px 5px 0;
+}
+
+/*base-clearable-icon*/
+.base-clearable-icon {
+  height: auto;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.54);
+}

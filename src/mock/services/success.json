@@ -1,0 +1,7 @@
+{
+  "transaction_id": "1234",
+  "result_code": "12345",
+  "status_code": "401",
+  "result_message": "result_message",
+  "user_id": "200"
+}

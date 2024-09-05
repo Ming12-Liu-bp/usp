@@ -1,0 +1,483 @@
+{
+  "transaction_id": "11111111",
+  "usp_role_id": "1",
+  "company_id": "1",
+  "data": {
+    "app_role_group": [
+      {
+        "app_role_group_name": "Model Role",
+        "sort_order": "7",
+        "app_role": [
+          {
+            "app_role_id": "1",
+            "app_role_name": "Full Access",
+            "sort_order": "28",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "2",
+            "app_role_name": "No Access",
+            "sort_order": "27",
+            "default_flg": "1"
+          },
+          {
+            "app_role_id": "3",
+            "app_role_name": "02_[RIGEL-TRISTAR]Full Access Dashboard",
+            "sort_order": "26",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "4",
+            "app_role_name": "03_[RIGEL]For Partner(Assign)",
+            "sort_order": "25",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "5",
+            "app_role_name": "05_[RIGEL]For_Sony_Semiconductor",
+            "sort_order": "24",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "6",
+            "app_role_name": "08_[RIGEL]For_Partner(Consign)(For_AMD)",
+            "sort_order": "23",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "7",
+            "app_role_name": "18_[RIGEL-TRISTAR]For_EMS(Assign&Consign)",
+            "sort_order": "22",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "8",
+            "app_role_name": "19_[RIGEL-TRISTAR]For_EMS(API)(Assign&Consign)",
+            "sort_order": "21",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "9",
+            "app_role_name": "20_[RIGEL-TRISTAR]For_Partner(Assign)",
+            "sort_order": "20",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "10",
+            "app_role_name": "21_[RIGEL-TRISTAR]For_Partner(Assign)(For_PLP)",
+            "sort_order": "19",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "11",
+            "app_role_name": "22_[RIGEL-TRISTAR]For_Partner(Assign&Consign)(AssignTRISTAR)",
+            "sort_order": "18",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "12",
+            "app_role_name": "23_[RIGEL]For_Partner(Assign)(Prod_Plan_Only)",
+            "sort_order": "17",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "13",
+            "app_role_name": "26_[TRISTAR]For_Partner(Assign)",
+            "sort_order": "16",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "14",
+            "app_role_name": "27_[RIGEL]For_SIE(Assign&Consign)",
+            "sort_order": "15",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "15",
+            "app_role_name": "29_[TRISTAR]For_Partner(Consign)",
+            "sort_order": "14",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "16",
+            "app_role_name": "30_[RIGEL-TRISTAR]For_Partner(Assign&Consign)(ALLTRISTAR)",
+            "sort_order": "13",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "17",
+            "app_role_name": "31_[RIGEL-TRISTAR]For_Partner(Consign)",
+            "sort_order": "12",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "18",
+            "app_role_name": "36_[RIGEL-TRISTAR]For_EMS(Assign&Consign)(OnKitting)",
+            "sort_order": "11",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "19",
+            "app_role_name": "39_[RIGEL]For_Partner(Assign)(Alloc)",
+            "sort_order": "10",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "10000",
+            "app_role_name": "43_[RIGEL]For_Partner(Assign)(Prod_Plan_Only)(Alloc)",
+            "sort_order": "10",
+            "default_flg": ""
+          }
+        ]
+      },
+      {
+        "app_role_group_name": "Supplier",
+        "sort_order": "6",
+        "app_role": [
+          {
+            "app_role_id": "21",
+            "app_role_name": "All supplier",
+            "sort_order": "28",
+            "default_flg": ""
+          }
+        ]
+      },
+      {
+        "app_role_group_name": "Product_List",
+        "sort_order": "5",
+        "app_role": [
+          {
+            "app_role_id": "31",
+            "app_role_name": "All Product",
+            "sort_order": "28",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "32",
+            "app_role_name": "COMMON",
+            "sort_order": "27",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "33",
+            "app_role_name": "DS4",
+            "sort_order": "26",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "34",
+            "app_role_name": "Next Camera",
+            "sort_order": "25",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "35",
+            "app_role_name": "Next Controller",
+            "sort_order": "24",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "36",
+            "app_role_name": "PS Camera",
+            "sort_order": "23",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "37",
+            "app_role_name": "PS Move",
+            "sort_order": "22",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "38",
+            "app_role_name": "PS VR",
+            "sort_order": "21",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "39",
+            "app_role_name": "PS4",
+            "sort_order": "20",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "40",
+            "app_role_name": "PS5",
+            "sort_order": "19",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "21370",
+            "app_role_name": "DualSense Charging Station",
+            "sort_order": "90",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "21371",
+            "app_role_name": "PS5 Camera Adaptor",
+            "sort_order": "89",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "21372",
+            "app_role_name": "PS5 Media Remote",
+            "sort_order": "88",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "21373",
+            "app_role_name": "PS5 Wireless Headset",
+            "sort_order": "87",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "21375",
+            "app_role_name": "PS VR2",
+            "sort_order": "85",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "21376",
+            "app_role_name": "PS VR2 Controller",
+            "sort_order": "84",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "21381",
+            "app_role_name": "PS Pro Wireless Controller",
+            "sort_order": "83",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "21382",
+            "app_role_name": "Replacement Stick Module",
+            "sort_order": "82",
+            "default_flg": ""
+          }
+        ]
+      },
+      {
+        "app_role_group_name": "Site",
+        "sort_order": "4",
+        "app_role": [
+          {
+            "app_role_id": "51",
+            "app_role_name": "All Site",
+            "sort_order": "27",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "52",
+            "app_role_name": "FOX-GZ",
+            "sort_order": "26",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "53",
+            "app_role_name": "FOX-MY",
+            "sort_order": "25",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "54",
+            "app_role_name": "FOX-SK",
+            "sort_order": "24",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "55",
+            "app_role_name": "FOX-YT",
+            "sort_order": "23",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "21368",
+            "app_role_name": "GOER-RC",
+            "sort_order": "22",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "56",
+            "app_role_name": "GOER-VN",
+            "sort_order": "22",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "57",
+            "app_role_name": "GOER-WF",
+            "sort_order": "21",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "58",
+            "app_role_name": "PEGA-SZ",
+            "sort_order": "20",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "59",
+            "app_role_name": "SKZ",
+            "sort_order": "19",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "60",
+            "app_role_name": "UN_ALLOC",
+            "sort_order": "18",
+            "default_flg": ""
+          }
+        ]
+      },
+      {
+        "app_role_group_name": "Factory",
+        "sort_order": "3",
+        "app_role": [
+          {
+            "app_role_id": "71",
+            "app_role_name": "All",
+            "sort_order": "28",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "72",
+            "app_role_name": "All Factory",
+            "sort_order": "27",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "73",
+            "app_role_name": "FOX-GZ",
+            "sort_order": "26",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "74",
+            "app_role_name": "FOX-MY",
+            "sort_order": "25",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "75",
+            "app_role_name": "FOX-SK",
+            "sort_order": "24",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "76",
+            "app_role_name": "FOX-YT",
+            "sort_order": "23",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "77",
+            "app_role_name": "GOER-VN",
+            "sort_order": "22",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "78",
+            "app_role_name": "GOER-WF",
+            "sort_order": "21",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "79",
+            "app_role_name": "PEGA-SZ",
+            "sort_order": "20",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "80",
+            "app_role_name": "SKZ",
+            "sort_order": "19",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "81",
+            "app_role_name": "UN_ALLOC",
+            "sort_order": "18",
+            "default_flg": ""
+          }
+        ]
+      },
+      {
+        "app_role_group_name": "Maker",
+        "sort_order": "2",
+        "app_role": [
+          {
+            "app_role_id": "91",
+            "app_role_name": "All Partner",
+            "sort_order": "28",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "92",
+            "app_role_name": "PANASONIC",
+            "sort_order": "27",
+            "default_flg": ""
+          }
+        ]
+      },
+      {
+        "app_role_group_name": "Process",
+        "sort_order": "1",
+        "app_role": [
+          {
+            "app_role_id": "101",
+            "app_role_name": "All Process",
+            "sort_order": "28",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "102",
+            "app_role_name": "ASSY",
+            "sort_order": "27",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "103",
+            "app_role_name": "BU",
+            "sort_order": "26",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "104",
+            "app_role_name": "DRIVE",
+            "sort_order": "25",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "105",
+            "app_role_name": "NRC",
+            "sort_order": "24",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "106",
+            "app_role_name": "SMT",
+            "sort_order": "23",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "107",
+            "app_role_name": "SMT_C",
+            "sort_order": "22",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "108",
+            "app_role_name": "SMT_W",
+            "sort_order": "21",
+            "default_flg": ""
+          },
+          {
+            "app_role_id": "109",
+            "app_role_name": "SUB_ASSY_CR",
+            "sort_order": "20",
+            "default_flg": ""
+          }
+        ]
+      }
+    ]
+  }
+}

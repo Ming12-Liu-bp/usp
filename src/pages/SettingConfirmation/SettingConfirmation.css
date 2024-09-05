@@ -1,0 +1,36 @@
+.usp-headline {
+  font-size: 24px;
+  margin-top: 2px;
+  margin-left: 6px;
+}
+.usp-grey-text {
+  margin-top: -15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.usp-table {
+  padding-left: 40px;
+}
+.usp-none-border {
+  border-style: none;
+}
+
+:deep(
+    .v-table.v-table--hover
+      > .v-table__wrapper
+      > table
+      > tbody
+      > tr:hover
+      > td::after
+  ) {
+  --v-hover-opacity: 0.07;
+}
+
+.v-table .v-table__wrapper > table > tbody > tr:not(:last-child) > td,
+.v-table .v-table__wrapper > table > tbody > tr:not(:last-child) > th {
+  border-bottom: 0;
+}
+
+.v-table > .v-table__wrapper > table > tbody > tr > td {
+  height: 0;
+  line-height: 23px;
+}

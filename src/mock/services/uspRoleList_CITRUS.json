@@ -1,0 +1,31 @@
+{
+  "transaction_id": "22222",
+  "service_id": "1",
+  "company_id": "1",
+  "user_id": "22",
+  "data": {
+    "usp_role": [
+      {
+        "id": "21",
+        "name": "Procurement Office",
+        "sort_order": "3",
+        "default_app_role_id": "1",
+        "registerable_status": "1"
+      },
+      {
+        "id": "22",
+        "name": "Procurement Buyer",
+        "sort_order": "1",
+        "default_app_role_id": "1",
+        "registerable_status": "0"
+      },
+      {
+        "id": "23",
+        "name": "Procurement Control",
+        "sort_order": "2",
+        "default_app_role_id": "1",
+        "registerable_status": "0"
+      }
+    ]
+  }
+}

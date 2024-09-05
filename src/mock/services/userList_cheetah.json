@@ -1,0 +1,844 @@
+{
+  "transaction_id": "152",
+  "company_id": "1",
+  "service_id": "1",
+  "name": "",
+  "email": "",
+  "data": {
+    "total_count": 3,
+    "user": [
+      {
+        "id": "0",
+        "last_name": "test",
+        "first_name": "seconddddddddddddddddddddddddddd",
+        "company_id": "2",
+        "company_name": "(dddd) dddd",
+        "company_name_en": "dddd",
+        "company_code": "PEGA-SZ",
+        "usertype": "bpp-windows",
+        "email": "second.test-userrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr@mail.com",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_role": [
+              {
+                "app_role_id": "3",
+                "app_role_name": "02_[RIGEL-TRISTAR]Full Access Dashboard"
+              },
+              {
+                "app_role_id": "21",
+                "app_role_name": "All supplier"
+              },
+              {
+                "app_role_id": "31",
+                "app_role_name": "All Product"
+              },
+              {
+                "app_role_id": "72",
+                "app_role_name": "All Factory"
+              },
+              {
+                "app_role_id": "72",
+                "app_role_name": "All Factory"
+              },
+              {
+                "app_role_id": "91",
+                "app_role_name": "All Partner"
+              },
+              {
+                "app_role_id": "101",
+                "app_role_name": "All Process"
+              }
+            ]
+          },
+          { "service_id": "7", "service_name": "ESCHER" },
+          { "service_id": "6", "service_name": "Bee" },
+          { "service_id": "3", "service_name": "MAQROS" }
+        ]
+      },
+      {
+        "id": "1",
+        "last_name": "test",
+        "first_name": "first",
+        "company_id": "1",
+        "company_name": "(CA) companyA",
+        "company_name_en": "companyA",
+        "company_code": "PEGA-SZ",
+        "usertype": "bpp-windows",
+        "email": "first.test-user@mail.com",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_role": [
+              {
+                "app_role_id": "4",
+                "app_role_name": "03_[RIGEL]For Partner(Assign)"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "PANASONIC"
+              },
+              {
+                "app_role_id": "33",
+                "app_role_name": "DS4"
+              },
+              {
+                "app_role_id": "34",
+                "app_role_name": "Next Camera"
+              },
+              {
+                "app_role_id": "35",
+                "app_role_name": "Next Controller"
+              },
+              {
+                "app_role_id": "36",
+                "app_role_name": "PS Camera"
+              },
+              {
+                "app_role_id": "37",
+                "app_role_name": "PS Move"
+              },
+              {
+                "app_role_id": "38",
+                "app_role_name": "PS VR"
+              },
+              {
+                "app_role_id": "39",
+                "app_role_name": "PS4"
+              },
+              {
+                "app_role_id": "40",
+                "app_role_name": "PS5"
+              },
+              {
+                "app_role_id": "52",
+                "app_role_name": "FOX-GZ"
+              },
+              {
+                "app_role_id": "53",
+                "app_role_name": "FOX-MY"
+              },
+              {
+                "app_role_id": "54",
+                "app_role_name": "FOX-SK"
+              },
+              {
+                "app_role_id": "55",
+                "app_role_name": "FOX-YT"
+              },
+              {
+                "app_role_id": "56",
+                "app_role_name": "GOER-VN"
+              },
+              {
+                "app_role_id": "57",
+                "app_role_name": "GOER-WF"
+              },
+              {
+                "app_role_id": "58",
+                "app_role_name": "PEGA-SZ"
+              },
+              {
+                "app_role_id": "59",
+                "app_role_name": "SKZ"
+              },
+              {
+                "app_role_id": "73",
+                "app_role_name": "FOX-GZ"
+              },
+              {
+                "app_role_id": "74",
+                "app_role_name": "FOX-MY"
+              },
+              {
+                "app_role_id": "75",
+                "app_role_name": "FOX-SK"
+              },
+              {
+                "app_role_id": "76",
+                "app_role_name": "FOX-YT"
+              },
+              {
+                "app_role_id": "77",
+                "app_role_name": "GOER-VN"
+              },
+              {
+                "app_role_id": "78",
+                "app_role_name": "GOER-WF"
+              },
+              {
+                "app_role_id": "79",
+                "app_role_name": "PEGA-SZ"
+              },
+              {
+                "app_role_id": "80",
+                "app_role_name": "SKZ"
+              },
+              {
+                "app_role_id": "91",
+                "app_role_name": "All Partner"
+              },
+              {
+                "app_role_id": "92",
+                "app_role_name": "PANASONIC"
+              },
+              {
+                "app_role_id": "102",
+                "app_role_name": "ASSY"
+              },
+              {
+                "app_role_id": "106",
+                "app_role_name": "SMT"
+              },
+              {
+                "app_role_id": "107",
+                "app_role_name": "SMT_C"
+              },
+              {
+                "app_role_id": "108",
+                "app_role_name": "SMT_W"
+              },
+              {
+                "app_role_id": "109",
+                "app_role_name": "SUB_ASSY_CR"
+              }
+            ]
+          },
+          { "service_id": "7", "service_name": "ESCHER" }
+        ]
+      },
+      {
+        "id": "2",
+        "last_name": "test",
+        "first_name": "seconddddddddddddddddddddddddddd",
+        "company_id": "2",
+        "company_name": "(CB) companyB",
+        "company_name_en": "companyBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+        "company_code": "PEGA-SZ",
+        "usertype": "bpp-windows",
+        "email": "second.test-userrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr@mail.com",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_role": [
+              {
+                "app_role_id": "4",
+                "app_role_name": "03_[RIGEL]For Partner(Assign)"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "PANASONIC"
+              },
+              {
+                "app_role_id": "33",
+                "app_role_name": "DS4"
+              },
+              {
+                "app_role_id": "34",
+                "app_role_name": "Next Camera"
+              },
+              {
+                "app_role_id": "35",
+                "app_role_name": "Next Controller"
+              },
+              {
+                "app_role_id": "36",
+                "app_role_name": "PS Camera"
+              },
+              {
+                "app_role_id": "37",
+                "app_role_name": "PS Move"
+              },
+              {
+                "app_role_id": "38",
+                "app_role_name": "PS VR"
+              },
+              {
+                "app_role_id": "39",
+                "app_role_name": "PS4"
+              },
+              {
+                "app_role_id": "40",
+                "app_role_name": "PS5"
+              },
+              {
+                "app_role_id": "52",
+                "app_role_name": "FOX-GZ"
+              },
+              {
+                "app_role_id": "53",
+                "app_role_name": "FOX-MY"
+              },
+              {
+                "app_role_id": "54",
+                "app_role_name": "FOX-SK"
+              },
+              {
+                "app_role_id": "55",
+                "app_role_name": "FOX-YT"
+              },
+              {
+                "app_role_id": "56",
+                "app_role_name": "GOER-VN"
+              },
+              {
+                "app_role_id": "57",
+                "app_role_name": "GOER-WF"
+              },
+              {
+                "app_role_id": "58",
+                "app_role_name": "PEGA-SZ"
+              },
+              {
+                "app_role_id": "59",
+                "app_role_name": "SKZ"
+              },
+              {
+                "app_role_id": "73",
+                "app_role_name": "FOX-GZ"
+              },
+              {
+                "app_role_id": "74",
+                "app_role_name": "FOX-MY"
+              },
+              {
+                "app_role_id": "75",
+                "app_role_name": "FOX-SK"
+              },
+              {
+                "app_role_id": "76",
+                "app_role_name": "FOX-YT"
+              },
+              {
+                "app_role_id": "77",
+                "app_role_name": "GOER-VN"
+              },
+              {
+                "app_role_id": "78",
+                "app_role_name": "GOER-WF"
+              },
+              {
+                "app_role_id": "79",
+                "app_role_name": "PEGA-SZ"
+              },
+              {
+                "app_role_id": "80",
+                "app_role_name": "SKZ"
+              },
+              {
+                "app_role_id": "91",
+                "app_role_name": "All Partner"
+              },
+              {
+                "app_role_id": "92",
+                "app_role_name": "PANASONIC"
+              },
+              {
+                "app_role_id": "102",
+                "app_role_name": "ASSY"
+              },
+              {
+                "app_role_id": "106",
+                "app_role_name": "SMT"
+              },
+              {
+                "app_role_id": "107",
+                "app_role_name": "SMT_C"
+              },
+              {
+                "app_role_id": "108",
+                "app_role_name": "SMT_W"
+              },
+              {
+                "app_role_id": "109",
+                "app_role_name": "SUB_ASSY_CR"
+              }
+            ]
+          },
+          { "service_id": "7", "service_name": "ESCHER" },
+          { "service_id": "6", "service_name": "Bee" },
+          { "service_id": "3", "service_name": "MAQROS" }
+        ]
+      },
+      {
+        "id": "3",
+        "last_name": "test",
+        "first_name": "third-a",
+        "company_id": "3",
+        "company_name": "(CC) companyC",
+        "company_name_en": "companyC",
+        "company_code": "PEGA-SZ",
+        "usertype": "bpp-windows",
+        "email": "third.test-user@mail.com",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_role": [
+              {
+                "app_role_id": "4",
+                "app_role_name": "03_[RIGEL]For Partner(Assign)"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "PANASONIC"
+              },
+              {
+                "app_role_id": "33",
+                "app_role_name": "DS4"
+              },
+              {
+                "app_role_id": "34",
+                "app_role_name": "Next Camera"
+              },
+              {
+                "app_role_id": "35",
+                "app_role_name": "Next Controller"
+              },
+              {
+                "app_role_id": "36",
+                "app_role_name": "PS Camera"
+              },
+              {
+                "app_role_id": "37",
+                "app_role_name": "PS Move"
+              },
+              {
+                "app_role_id": "38",
+                "app_role_name": "PS VR"
+              },
+              {
+                "app_role_id": "39",
+                "app_role_name": "PS4"
+              },
+              {
+                "app_role_id": "40",
+                "app_role_name": "PS5"
+              },
+              {
+                "app_role_id": "21370",
+                "app_role_name": "DualSense Charging Station"
+              },
+              {
+                "app_role_id": "21371",
+                "app_role_name": "PS5 Camera Adaptor"
+              },
+              {
+                "app_role_id": "21372",
+                "app_role_name": "PS5 Media Remote"
+              },
+              {
+                "app_role_id": "21373",
+                "app_role_name": "PS5 Wireless Headset"
+              },
+              {
+                "app_role_id": "52",
+                "app_role_name": "FOX-GZ"
+              },
+              {
+                "app_role_id": "53",
+                "app_role_name": "FOX-MY"
+              },
+              {
+                "app_role_id": "54",
+                "app_role_name": "FOX-SK"
+              },
+              {
+                "app_role_id": "55",
+                "app_role_name": "FOX-YT"
+              },
+              {
+                "app_role_id": "56",
+                "app_role_name": "GOER-VN"
+              },
+              {
+                "app_role_id": "57",
+                "app_role_name": "GOER-WF"
+              },
+              {
+                "app_role_id": "58",
+                "app_role_name": "PEGA-SZ"
+              },
+              {
+                "app_role_id": "59",
+                "app_role_name": "SKZ"
+              },
+              {
+                "app_role_id": "73",
+                "app_role_name": "FOX-GZ"
+              },
+              {
+                "app_role_id": "74",
+                "app_role_name": "FOX-MY"
+              },
+              {
+                "app_role_id": "75",
+                "app_role_name": "FOX-SK"
+              },
+              {
+                "app_role_id": "76",
+                "app_role_name": "FOX-YT"
+              },
+              {
+                "app_role_id": "77",
+                "app_role_name": "GOER-VN"
+              },
+              {
+                "app_role_id": "78",
+                "app_role_name": "GOER-WF"
+              },
+              {
+                "app_role_id": "79",
+                "app_role_name": "PEGA-SZ"
+              },
+              {
+                "app_role_id": "80",
+                "app_role_name": "SKZ"
+              },
+              {
+                "app_role_id": "91",
+                "app_role_name": "All Partner"
+              },
+              {
+                "app_role_id": "92",
+                "app_role_name": "PANASONIC"
+              },
+              {
+                "app_role_id": "102",
+                "app_role_name": "ASSY"
+              },
+              {
+                "app_role_id": "106",
+                "app_role_name": "SMT"
+              },
+              {
+                "app_role_id": "107",
+                "app_role_name": "SMT_C"
+              },
+              {
+                "app_role_id": "108",
+                "app_role_name": "SMT_W"
+              },
+              {
+                "app_role_id": "109",
+                "app_role_name": "SUB_ASSY_CR"
+              }
+            ]
+          },
+          {
+            "service_id": "2",
+            "service_name": "CITRUS",
+            "app_role": [
+              {
+                "app_role_id": "21",
+                "app_role_name": "Procurement Office"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "Procurement Buyer"
+              },
+              {
+                "app_role_id": "23",
+                "app_role_name": "Procurement Control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "last_name": "test",
+        "first_name": "third-b",
+        "company_id": "3",
+        "company_name": "(CC) companyC",
+        "company_name_en": "companyC",
+        "company_code": "PEGA-SZ",
+        "usertype": "bpp-windows",
+        "email": "third.test-user@mail.com",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_role": [
+              {
+                "app_role_id": "3",
+                "app_role_name": "02_[RIGEL-TRISTAR]Full Access Dashboard"
+              },
+              {
+                "app_role_id": "21",
+                "app_role_name": "All supplier"
+              },
+              {
+                "app_role_id": "31",
+                "app_role_name": "All Product"
+              },
+              {
+                "app_role_id": "72",
+                "app_role_name": "All Factory"
+              },
+              {
+                "app_role_id": "72",
+                "app_role_name": "All Factory"
+              },
+              {
+                "app_role_id": "91",
+                "app_role_name": "All Partner"
+              },
+              {
+                "app_role_id": "101",
+                "app_role_name": "All Process"
+              }
+            ]
+          },
+          {
+            "service_id": "2",
+            "service_name": "CITRUS",
+            "app_role": [
+              {
+                "app_role_id": "21",
+                "app_role_name": "Procurement Office"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "Procurement Buyer"
+              },
+              {
+                "app_role_id": "23",
+                "app_role_name": "Procurement Control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "last_name": "test",
+        "first_name": "third-c",
+        "company_id": "3",
+        "company_name": "(CC) companyC",
+        "company_name_en": "companyC",
+        "company_code": "PEGA-SZ",
+        "usertype": "bpp-windows",
+        "email": "third.test-user@mail.com",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_role": [
+              {
+                "app_role_id": "3",
+                "app_role_name": "02_[RIGEL-TRISTAR]Full Access Dashboard"
+              },
+              {
+                "app_role_id": "21",
+                "app_role_name": "All supplier"
+              },
+              {
+                "app_role_id": "31",
+                "app_role_name": "All Product"
+              },
+              {
+                "app_role_id": "72",
+                "app_role_name": "All Factory"
+              },
+              {
+                "app_role_id": "72",
+                "app_role_name": "All Factory"
+              },
+              {
+                "app_role_id": "91",
+                "app_role_name": "All Partner"
+              },
+              {
+                "app_role_id": "101",
+                "app_role_name": "All Process"
+              }
+            ]
+          },
+          {
+            "service_id": "2",
+            "service_name": "CITRUS",
+            "app_role": [
+              {
+                "app_role_id": "21",
+                "app_role_name": "Procurement Office"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "Procurement Buyer"
+              },
+              {
+                "app_role_id": "23",
+                "app_role_name": "Procurement Control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "last_name": "test",
+        "first_name": "third-d",
+        "company_id": "3",
+        "company_name": "(CC) companyC",
+        "company_name_en": "companyC",
+        "company_code": "PEGA-SZ",
+        "usertype": "bpp-windows",
+        "email": "third.test-user@mail.com",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_role": [
+              {
+                "app_role_id": "3",
+                "app_role_name": "02_[RIGEL-TRISTAR]Full Access Dashboard"
+              },
+              {
+                "app_role_id": "21",
+                "app_role_name": "All supplier"
+              },
+              {
+                "app_role_id": "31",
+                "app_role_name": "All Product"
+              },
+              {
+                "app_role_id": "72",
+                "app_role_name": "All Factory"
+              },
+              {
+                "app_role_id": "72",
+                "app_role_name": "All Factory"
+              },
+              {
+                "app_role_id": "91",
+                "app_role_name": "All Partner"
+              },
+              {
+                "app_role_id": "101",
+                "app_role_name": "All Process"
+              }
+            ]
+          },
+          {
+            "service_id": "2",
+            "service_name": "CITRUS",
+            "app_role": [
+              {
+                "app_role_id": "21",
+                "app_role_name": "Procurement Office"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "Procurement Buyer"
+              },
+              {
+                "app_role_id": "23",
+                "app_role_name": "Procurement Control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "last_name": "test",
+        "first_name": "third",
+        "company_id": "3",
+        "company_name": "(CC) companyC",
+        "company_name_en": "companyC",
+        "company_code": "PEGA-SZ",
+        "usertype": "bpp-windows",
+        "email": "third.test-user@mail.com",
+        "used_app": [
+          {
+            "service_id": "2",
+            "service_name": "CITRUS",
+            "app_role": [
+              {
+                "app_role_id": "21",
+                "app_role_name": "Procurement Office"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "Procurement Buyer"
+              },
+              {
+                "app_role_id": "23",
+                "app_role_name": "Procurement Control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "last_name": "test",
+        "first_name": "third",
+        "company_id": "3",
+        "company_name": "(CC) companyC",
+        "company_name_en": "companyC",
+        "company_code": "PEGA-SZ",
+        "usertype": "bpp-windows",
+        "email": "third.test-user@mail.com",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_role": [
+              {
+                "app_role_id": "3",
+                "app_role_name": "02_[RIGEL-TRISTAR]Full Access Dashboard"
+              },
+              {
+                "app_role_id": "21",
+                "app_role_name": "All supplier"
+              },
+              {
+                "app_role_id": "31",
+                "app_role_name": "All Product"
+              },
+              {
+                "app_role_id": "72",
+                "app_role_name": "All Factory"
+              },
+              {
+                "app_role_id": "72",
+                "app_role_name": "All Factory"
+              },
+              {
+                "app_role_id": "91",
+                "app_role_name": "All Partner"
+              },
+              {
+                "app_role_id": "101",
+                "app_role_name": "All Process"
+              }
+            ]
+          },
+          {
+            "service_id": "2",
+            "service_name": "CITRUS",
+            "app_role": [
+              {
+                "app_role_id": "21",
+                "app_role_name": "Procurement Office"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "Procurement Buyer"
+              },
+              {
+                "app_role_id": "23",
+                "app_role_name": "Procurement Control"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

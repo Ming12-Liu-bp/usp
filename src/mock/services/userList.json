@@ -1,0 +1,2136 @@
+{
+  "transaction_id": "152",
+  "company_id": "1",
+  "service_id": "1",
+  "name": "",
+  "email": "",
+  "data": {
+    "total_count": 3,
+    "max_user_size": null,
+    "user": [
+      {
+        "id": "0",
+        "last_name": "test",
+        "first_name": "first",
+        "company_id": "1",
+        "company_name": "(NTTD) 株式会社NTTデータ",
+        "company_name_en": "nttdata",
+        "email": "first.test-user@mail.com",
+        "usertype": "system-admin",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_rolegroup": [
+              {
+                "app_rolegroup_name": "Model Role",
+                "app_rolegroup_id": "1",
+                "sort_order": "7",
+                "app_role": [
+                  {
+                    "app_role_id": "12",
+                    "app_role_name": "23_[RIGEL]For_Partner(Assign)(Prod_Plan_Only)",
+                    "sort_order": "17",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Supplier",
+                "app_rolegroup_id": "2",
+                "sort_order": "6",
+                "app_role": [
+                  {
+                    "app_role_id": "21",
+                    "app_role_name": "All supplier",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Product_List",
+                "app_rolegroup_id": "3",
+                "sort_order": "5",
+                "app_role": [
+                  {
+                    "app_role_id": "31",
+                    "app_role_name": "All Product",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Site",
+                "app_rolegroup_id": "4",
+                "sort_order": "4",
+                "app_role": [
+                  {
+                    "app_role_id": "51",
+                    "app_role_name": "All Site",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Factory",
+                "app_rolegroup_id": "5",
+                "sort_order": "3",
+                "app_role": [
+                  {
+                    "app_role_id": "72",
+                    "app_role_name": "All Factory",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Maker",
+                "app_rolegroup_id": "6",
+                "sort_order": "2",
+                "app_role": [
+                  {
+                    "app_role_id": "91",
+                    "app_role_name": "All Partner",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Process",
+                "app_rolegroup_id": "7",
+                "sort_order": "1",
+                "app_role": [
+                  {
+                    "app_role_id": "101",
+                    "app_role_name": "All Process",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "service_id": "7",
+            "service_name": "ESCHER"
+          },
+          {
+            "service_id": "6",
+            "service_name": "Bee"
+          },
+          {
+            "service_id": "3",
+            "service_name": "MAQROS"
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "last_name": "test",
+        "first_name": "third",
+        "company_id": "1",
+        "company_name": "(NTTD) 株式会社NTTデータ",
+        "company_name_en": "nttdata",
+        "email": "third.test-user@mail.com",
+        "usertype": "user",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_rolegroup": [
+              {
+                "app_rolegroup_name": "Model Role",
+                "app_rolegroup_id": "1",
+                "sort_order": "7",
+                "app_role": [
+                  {
+                    "app_role_id": "20",
+                    "app_role_name": "25_[RIGEL-TRISTAR]For_Partner(API)(Assign&Consign)",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Supplier",
+                "app_rolegroup_id": "2",
+                "sort_order": "6",
+                "app_role": [
+                  {
+                    "app_role_id": "21",
+                    "app_role_name": "All supplier",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Product_List",
+                "app_rolegroup_id": "3",
+                "sort_order": "5",
+                "app_role": [
+                  {
+                    "app_role_id": "31",
+                    "app_role_name": "All Product",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Site",
+                "app_rolegroup_id": "4",
+                "sort_order": "4",
+                "app_role": [
+                  {
+                    "app_role_id": "51",
+                    "app_role_name": "All Site",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Factory",
+                "app_rolegroup_id": "5",
+                "sort_order": "3",
+                "app_role": [
+                  {
+                    "app_role_id": "72",
+                    "app_role_name": "All Factory",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Maker",
+                "app_rolegroup_id": "6",
+                "sort_order": "2",
+                "app_role": [
+                  {
+                    "app_role_id": "91",
+                    "app_role_name": "All Partner",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Process",
+                "app_rolegroup_id": "7",
+                "sort_order": "1",
+                "app_role": [
+                  {
+                    "app_role_id": "101",
+                    "app_role_name": "All Process",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "service_id": "2",
+            "service_name": "CITRUS",
+            "app_role": [
+              {
+                "app_role_id": "21",
+                "app_role_name": "Procurement Office"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "Procurement Buyer"
+              },
+              {
+                "app_role_id": "23",
+                "app_role_name": "Procurement Control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "last_name": "test",
+        "first_name": "first",
+        "company_id": "2",
+        "company_name": "(SIE) Sony Interactive Entertainment Inc.",
+        "company_name_en": "Sony Interactive Entertainment Inc.",
+        "email": "first.test-user@mail.com",
+        "usertype": "organization-admin",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_rolegroup": [
+              {
+                "app_rolegroup_name": "Model Role",
+                "app_rolegroup_id": "1",
+                "sort_order": "7",
+                "app_role": [
+                  {
+                    "app_role_id": "4",
+                    "app_role_name": "03_[RIGEL]For Partner(Assign)",
+                    "sort_order": "25",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Supplier",
+                "app_rolegroup_id": "2",
+                "sort_order": "6",
+                "app_role": [
+                  {
+                    "app_role_id": "22",
+                    "app_role_name": "PANASONIC",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Product_List",
+                "app_rolegroup_id": "3",
+                "sort_order": "5",
+                "app_role": [
+                  {
+                    "app_role_id": "33",
+                    "app_role_name": "DS4",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "34",
+                    "app_role_name": "Next Camera",
+                    "sort_order": "25",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "35",
+                    "app_role_name": "Next Controller",
+                    "sort_order": "24",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "36",
+                    "app_role_name": "PS Camera",
+                    "sort_order": "23",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "37",
+                    "app_role_name": "PS Move",
+                    "sort_order": "22",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "38",
+                    "app_role_name": "PS VR",
+                    "sort_order": "21",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "39",
+                    "app_role_name": "PS4",
+                    "sort_order": "20",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "40",
+                    "app_role_name": "PS5",
+                    "sort_order": "19",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Site",
+                "app_rolegroup_id": "4",
+                "sort_order": "4",
+                "app_role": [
+                  {
+                    "app_role_id": "52",
+                    "app_role_name": "FOX-GZ",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "53",
+                    "app_role_name": "FOX-MY",
+                    "sort_order": "25",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "54",
+                    "app_role_name": "FOX-SK",
+                    "sort_order": "24",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "55",
+                    "app_role_name": "FOX-YT",
+                    "sort_order": "23",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "21368",
+                    "app_role_name": "GOER-RC",
+                    "sort_order": "21",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "56",
+                    "app_role_name": "GOER-VN",
+                    "sort_order": "22",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "57",
+                    "app_role_name": "GOER-WF",
+                    "sort_order": "21",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "58",
+                    "app_role_name": "PEGA-SZ",
+                    "sort_order": "20",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "59",
+                    "app_role_name": "SKZ",
+                    "sort_order": "19",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Factory",
+                "app_rolegroup_id": "5",
+                "sort_order": "3",
+                "app_role": [
+                  {
+                    "app_role_id": "73",
+                    "app_role_name": "FOX-GZ",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "74",
+                    "app_role_name": "FOX-MY",
+                    "sort_order": "25",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "75",
+                    "app_role_name": "FOX-SK",
+                    "sort_order": "24",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "76",
+                    "app_role_name": "FOX-YT",
+                    "sort_order": "23",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "77",
+                    "app_role_name": "GOER-VN",
+                    "sort_order": "22",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "78",
+                    "app_role_name": "GOER-WF",
+                    "sort_order": "21",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "79",
+                    "app_role_name": "PEGA-SZ",
+                    "sort_order": "20",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "80",
+                    "app_role_name": "SKZ",
+                    "sort_order": "19",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Maker",
+                "app_rolegroup_id": "6",
+                "sort_order": "2",
+                "app_role": [
+                  {
+                    "app_role_id": "91",
+                    "app_role_name": "All Partner",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "92",
+                    "app_role_name": "PANASONIC",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Process",
+                "app_rolegroup_id": "7",
+                "sort_order": "1",
+                "app_role": [
+                  {
+                    "app_role_id": "102",
+                    "app_role_name": "ASSY",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "106",
+                    "app_role_name": "SMT",
+                    "sort_order": "23",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "107",
+                    "app_role_name": "SMT_C",
+                    "sort_order": "22",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "108",
+                    "app_role_name": "SMT_W",
+                    "sort_order": "21",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "109",
+                    "app_role_name": "SUB_ASSY_CR",
+                    "sort_order": "20",
+                    "default_flg": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "service_id": "7",
+            "service_name": "ESCHER"
+          },
+          {
+            "service_id": "2",
+            "service_name": "CITRUS",
+            "app_role": [
+              {
+                "app_role_id": "21",
+                "app_role_name": "Procurement Office"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "Procurement Buyer"
+              },
+              {
+                "app_role_id": "23",
+                "app_role_name": "Procurement Control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "last_name": "test",
+        "first_name": "second",
+        "company_id": "2",
+        "company_name": "(SIE) Sony Interactive Entertainment Inc.",
+        "company_name_en": "Sony Interactive Entertainment Inc.",
+        "email": "second.test-user@mail.com",
+        "usertype": "organization-admin",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_rolegroup": [
+              {
+                "app_rolegroup_name": "Model Role",
+                "app_rolegroup_id": "1",
+                "sort_order": "7",
+                "app_role": [
+                  {
+                    "app_role_id": "10000",
+                    "app_role_name": "43_[RIGEL]For_Partner(Assign)(Prod_Plan_Only)(Alloc)",
+                    "sort_order": "10",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Supplier",
+                "app_rolegroup_id": "2",
+                "sort_order": "6",
+                "app_role": [
+                  {
+                    "app_role_id": "22",
+                    "app_role_name": "PANASONIC",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Product_List",
+                "app_rolegroup_id": "3",
+                "sort_order": "5",
+                "app_role": [
+                  {
+                    "app_role_id": "33",
+                    "app_role_name": "DS4",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "34",
+                    "app_role_name": "Next Camera",
+                    "sort_order": "25",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "35",
+                    "app_role_name": "Next Controller",
+                    "sort_order": "24",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "36",
+                    "app_role_name": "PS Camera",
+                    "sort_order": "23",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "37",
+                    "app_role_name": "PS Move",
+                    "sort_order": "22",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "38",
+                    "app_role_name": "PS VR",
+                    "sort_order": "21",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "39",
+                    "app_role_name": "PS4",
+                    "sort_order": "20",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "40",
+                    "app_role_name": "PS5",
+                    "sort_order": "19",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Site",
+                "app_rolegroup_id": "4",
+                "sort_order": "4",
+                "app_role": [
+                  {
+                    "app_role_id": "52",
+                    "app_role_name": "FOX-GZ",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "53",
+                    "app_role_name": "FOX-MY",
+                    "sort_order": "25",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "54",
+                    "app_role_name": "FOX-SK",
+                    "sort_order": "24",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "55",
+                    "app_role_name": "FOX-YT",
+                    "sort_order": "23",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "56",
+                    "app_role_name": "GOER-VN",
+                    "sort_order": "22",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "57",
+                    "app_role_name": "GOER-WF",
+                    "sort_order": "21",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "58",
+                    "app_role_name": "PEGA-SZ",
+                    "sort_order": "20",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "59",
+                    "app_role_name": "SKZ",
+                    "sort_order": "19",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Factory",
+                "app_rolegroup_id": "5",
+                "sort_order": "3",
+                "app_role": [
+                  {
+                    "app_role_id": "73",
+                    "app_role_name": "FOX-GZ",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "74",
+                    "app_role_name": "FOX-MY",
+                    "sort_order": "25",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "75",
+                    "app_role_name": "FOX-SK",
+                    "sort_order": "24",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "76",
+                    "app_role_name": "FOX-YT",
+                    "sort_order": "23",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "77",
+                    "app_role_name": "GOER-VN",
+                    "sort_order": "22",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "78",
+                    "app_role_name": "GOER-WF",
+                    "sort_order": "21",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "79",
+                    "app_role_name": "PEGA-SZ",
+                    "sort_order": "20",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "80",
+                    "app_role_name": "SKZ",
+                    "sort_order": "19",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Maker",
+                "app_rolegroup_id": "6",
+                "sort_order": "2",
+                "app_role": [
+                  {
+                    "app_role_id": "91",
+                    "app_role_name": "All Partner",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "92",
+                    "app_role_name": "PANASONIC",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Process",
+                "app_rolegroup_id": "7",
+                "sort_order": "1",
+                "app_role": [
+                  {
+                    "app_role_id": "102",
+                    "app_role_name": "ASSY",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "106",
+                    "app_role_name": "SMT",
+                    "sort_order": "23",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "107",
+                    "app_role_name": "SMT_C",
+                    "sort_order": "22",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "108",
+                    "app_role_name": "SMT_W",
+                    "sort_order": "21",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "109",
+                    "app_role_name": "SUB_ASSY_CR",
+                    "sort_order": "20",
+                    "default_flg": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "service_id": "7",
+            "service_name": "ESCHER"
+          },
+          {
+            "service_id": "6",
+            "service_name": "Bee"
+          },
+          {
+            "service_id": "3",
+            "service_name": "MAQROS"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "last_name": "test",
+        "first_name": "third-a",
+        "company_id": "2",
+        "company_name": "(SIE) Sony Interactive Entertainment Inc.",
+        "company_name_en": "Sony Interactive Entertainment Inc.",
+        "email": "third.test-user@mail.com",
+        "usertype": "organization-admin",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_rolegroup": [
+              {
+                "app_rolegroup_name": "Model Role",
+                "app_rolegroup_id": "1",
+                "sort_order": "7",
+                "app_role": [
+                  {
+                    "app_role_id": "12",
+                    "app_role_name": "23_[RIGEL]For_Partner(Assign)(Prod_Plan_Only)",
+                    "sort_order": "17",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Supplier",
+                "app_rolegroup_id": "2",
+                "sort_order": "6",
+                "app_role": [
+                  {
+                    "app_role_id": "22",
+                    "app_role_name": "PANASONIC",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Product_List",
+                "app_rolegroup_id": "3",
+                "sort_order": "5",
+                "app_role": [
+                  {
+                    "app_role_id": "33",
+                    "app_role_name": "DS4",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "34",
+                    "app_role_name": "Next Camera",
+                    "sort_order": "25",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "35",
+                    "app_role_name": "Next Controller",
+                    "sort_order": "24",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "36",
+                    "app_role_name": "PS Camera",
+                    "sort_order": "23",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "37",
+                    "app_role_name": "PS Move",
+                    "sort_order": "22",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "38",
+                    "app_role_name": "PS VR",
+                    "sort_order": "21",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "39",
+                    "app_role_name": "PS4",
+                    "sort_order": "20",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "40",
+                    "app_role_name": "PS5",
+                    "sort_order": "19",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "21370",
+                    "app_role_name": "DualSense Charging Station",
+                    "sort_order": "19",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "21371",
+                    "app_role_name": "PS5 Camera Adaptor",
+                    "sort_order": "19",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "21372",
+                    "app_role_name": "PS5 Media Remote",
+                    "sort_order": "19",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "21373",
+                    "app_role_name": "PS5 Wireless Headset",
+                    "sort_order": "19",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Site",
+                "app_rolegroup_id": "4",
+                "sort_order": "4",
+                "app_role": [
+                  {
+                    "app_role_id": "52",
+                    "app_role_name": "FOX-GZ",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "53",
+                    "app_role_name": "FOX-MY",
+                    "sort_order": "25",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "54",
+                    "app_role_name": "FOX-SK",
+                    "sort_order": "24",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "55",
+                    "app_role_name": "FOX-YT",
+                    "sort_order": "23",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "56",
+                    "app_role_name": "GOER-VN",
+                    "sort_order": "22",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "57",
+                    "app_role_name": "GOER-WF",
+                    "sort_order": "21",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "58",
+                    "app_role_name": "PEGA-SZ",
+                    "sort_order": "20",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "59",
+                    "app_role_name": "SKZ",
+                    "sort_order": "19",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Factory",
+                "app_rolegroup_id": "5",
+                "sort_order": "3",
+                "app_role": [
+                  {
+                    "app_role_id": "73",
+                    "app_role_name": "FOX-GZ",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "74",
+                    "app_role_name": "FOX-MY",
+                    "sort_order": "25",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "75",
+                    "app_role_name": "FOX-SK",
+                    "sort_order": "24",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "76",
+                    "app_role_name": "FOX-YT",
+                    "sort_order": "23",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "77",
+                    "app_role_name": "GOER-VN",
+                    "sort_order": "22",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "78",
+                    "app_role_name": "GOER-WF",
+                    "sort_order": "21",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "79",
+                    "app_role_name": "PEGA-SZ",
+                    "sort_order": "20",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "80",
+                    "app_role_name": "SKZ",
+                    "sort_order": "19",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Maker",
+                "app_rolegroup_id": "6",
+                "sort_order": "2",
+                "app_role": [
+                  {
+                    "app_role_id": "91",
+                    "app_role_name": "All Partner",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "92",
+                    "app_role_name": "PANASONIC",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Process",
+                "app_rolegroup_id": "7",
+                "sort_order": "1",
+                "app_role": [
+                  {
+                    "app_role_id": "102",
+                    "app_role_name": "ASSY",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "106",
+                    "app_role_name": "SMT",
+                    "sort_order": "23",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "107",
+                    "app_role_name": "SMT_C",
+                    "sort_order": "22",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "108",
+                    "app_role_name": "SMT_W",
+                    "sort_order": "21",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "109",
+                    "app_role_name": "SUB_ASSY_CR",
+                    "sort_order": "20",
+                    "default_flg": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "last_name": "test",
+        "first_name": "third-b",
+        "company_id": "2",
+        "company_name": "(SIE) Sony Interactive Entertainment Inc.",
+        "company_name_en": "Sony Interactive Entertainment Inc.",
+        "email": "third.test-user@mail.com",
+        "usertype": "user",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_rolegroup": [
+              {
+                "app_rolegroup_name": "Model Role",
+                "app_rolegroup_id": "1",
+                "sort_order": "7",
+                "app_role": [
+                  {
+                    "app_role_id": "37",
+                    "app_role_name": "43_[RIGEL]For_Partner(Assign)(Prod_Plan_Only)(Alloc)",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Supplier",
+                "app_rolegroup_id": "2",
+                "sort_order": "6",
+                "app_role": [
+                  {
+                    "app_role_id": "21",
+                    "app_role_name": "All supplier",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Product_List",
+                "app_rolegroup_id": "3",
+                "sort_order": "5",
+                "app_role": [
+                  {
+                    "app_role_id": "31",
+                    "app_role_name": "All Product",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Site",
+                "app_rolegroup_id": "4",
+                "sort_order": "4",
+                "app_role": [
+                  {
+                    "app_role_id": "51",
+                    "app_role_name": "All Site",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Factory",
+                "app_rolegroup_id": "5",
+                "sort_order": "3",
+                "app_role": [
+                  {
+                    "app_role_id": "72",
+                    "app_role_name": "All Factory",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Maker",
+                "app_rolegroup_id": "6",
+                "sort_order": "2",
+                "app_role": [
+                  {
+                    "app_role_id": "91",
+                    "app_role_name": "All Partner",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Process",
+                "app_rolegroup_id": "7",
+                "sort_order": "1",
+                "app_role": [
+                  {
+                    "app_role_id": "101",
+                    "app_role_name": "All Process",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "service_id": "2",
+            "service_name": "CITRUS",
+            "app_role": [
+              {
+                "app_role_id": "21",
+                "app_role_name": "Procurement Office"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "Procurement Buyer"
+              },
+              {
+                "app_role_id": "23",
+                "app_role_name": "Procurement Control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "last_name": "test",
+        "first_name": "third-c",
+        "company_id": "2",
+        "company_name": "(SIE) Sony Interactive Entertainment Inc.",
+        "company_name_en": "Sony Interactive Entertainment Inc.",
+        "email": "third.test-user@mail.com",
+        "usertype": "user",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_rolegroup": [
+              {
+                "app_rolegroup_name": "Model Role",
+                "app_rolegroup_id": "1",
+                "sort_order": "7",
+                "app_role": [
+                  {
+                    "app_role_id": "39",
+                    "app_role_name": "45_[RIGEL-TRISTAR]For_Partner(API)(Assign&amp;Consign)(Alloc)",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Supplier",
+                "app_rolegroup_id": "2",
+                "sort_order": "6",
+                "app_role": [
+                  {
+                    "app_role_id": "21",
+                    "app_role_name": "All supplier",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Product_List",
+                "app_rolegroup_id": "3",
+                "sort_order": "5",
+                "app_role": [
+                  {
+                    "app_role_id": "21375",
+                    "app_role_name": "PS VR2",
+                    "sort_order": "85",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "21376",
+                    "app_role_name": "PS VR2 Controller",
+                    "sort_order": "84",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "21381",
+                    "app_role_name": "PS Pro Wireless Controller",
+                    "sort_order": "83",
+                    "default_flg": ""
+                  },
+                  {
+                    "app_role_id": "21382",
+                    "app_role_name": "Replacement Stick Module",
+                    "sort_order": "82",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Site",
+                "app_rolegroup_id": "4",
+                "sort_order": "4",
+                "app_role": [
+                  {
+                    "app_role_id": "51",
+                    "app_role_name": "All Site",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Factory",
+                "app_rolegroup_id": "5",
+                "sort_order": "3",
+                "app_role": [
+                  {
+                    "app_role_id": "72",
+                    "app_role_name": "All Factory",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Maker",
+                "app_rolegroup_id": "6",
+                "sort_order": "2",
+                "app_role": [
+                  {
+                    "app_role_id": "91",
+                    "app_role_name": "All Partner",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Process",
+                "app_rolegroup_id": "7",
+                "sort_order": "1",
+                "app_role": [
+                  {
+                    "app_role_id": "101",
+                    "app_role_name": "All Process",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "service_id": "2",
+            "service_name": "CITRUS",
+            "app_role": [
+              {
+                "app_role_id": "21",
+                "app_role_name": "Procurement Office"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "Procurement Buyer"
+              },
+              {
+                "app_role_id": "23",
+                "app_role_name": "Procurement Control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "last_name": "test",
+        "first_name": "third-d",
+        "company_id": "2",
+        "company_name": "(SIE) Sony Interactive Entertainment Inc.",
+        "company_name_en": "Sony Interactive Entertainment Inc.",
+        "email": "third.test-user@mail.com",
+        "usertype": "user",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_rolegroup": [
+              {
+                "app_rolegroup_name": "Model Role",
+                "app_rolegroup_id": "1",
+                "sort_order": "7",
+                "app_role": [
+                  {
+                    "app_role_id": "1",
+                    "app_role_name": "Full Access",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Supplier",
+                "app_rolegroup_id": "2",
+                "sort_order": "6",
+                "app_role": [
+                  {
+                    "app_role_id": "21",
+                    "app_role_name": "All supplier",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Product_List",
+                "app_rolegroup_id": "3",
+                "sort_order": "5",
+                "app_role": [
+                  {
+                    "app_role_id": "31",
+                    "app_role_name": "All Product",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Site",
+                "app_rolegroup_id": "4",
+                "sort_order": "4",
+                "app_role": [
+                  {
+                    "app_role_id": "51",
+                    "app_role_name": "All Site",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Factory",
+                "app_rolegroup_id": "5",
+                "sort_order": "3",
+                "app_role": [
+                  {
+                    "app_role_id": "72",
+                    "app_role_name": "All Factory",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Maker",
+                "app_rolegroup_id": "6",
+                "sort_order": "2",
+                "app_role": [
+                  {
+                    "app_role_id": "91",
+                    "app_role_name": "All Partner",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Process",
+                "app_rolegroup_id": "7",
+                "sort_order": "1",
+                "app_role": [
+                  {
+                    "app_role_id": "101",
+                    "app_role_name": "All Process",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "service_id": "2",
+            "service_name": "CITRUS",
+            "app_role": [
+              {
+                "app_role_id": "21",
+                "app_role_name": "Procurement Office"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "Procurement Buyer"
+              },
+              {
+                "app_role_id": "23",
+                "app_role_name": "Procurement Control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "last_name": "test",
+        "first_name": "third",
+        "company_id": "2",
+        "company_name": "(SIE) Sony Interactive Entertainment Inc.",
+        "company_name_en": "Sony Interactive Entertainment Inc.",
+        "email": "third.test-user@mail.com",
+        "usertype": "user",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_rolegroup": [
+              {
+                "app_rolegroup_name": "Model Role",
+                "app_rolegroup_id": "1",
+                "sort_order": "7",
+                "app_role": [
+                  {
+                    "app_role_id": "10",
+                    "app_role_name": "09_[RIGEL]For_EMS(Assign)",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Supplier",
+                "app_rolegroup_id": "2",
+                "sort_order": "6",
+                "app_role": [
+                  {
+                    "app_role_id": "21",
+                    "app_role_name": "All supplier",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Product_List",
+                "app_rolegroup_id": "3",
+                "sort_order": "5",
+                "app_role": [
+                  {
+                    "app_role_id": "31",
+                    "app_role_name": "All Product",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Site",
+                "app_rolegroup_id": "4",
+                "sort_order": "4",
+                "app_role": [
+                  {
+                    "app_role_id": "51",
+                    "app_role_name": "All Site",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Factory",
+                "app_rolegroup_id": "5",
+                "sort_order": "3",
+                "app_role": [
+                  {
+                    "app_role_id": "72",
+                    "app_role_name": "All Factory",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Maker",
+                "app_rolegroup_id": "6",
+                "sort_order": "2",
+                "app_role": [
+                  {
+                    "app_role_id": "91",
+                    "app_role_name": "All Partner",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Process",
+                "app_rolegroup_id": "7",
+                "sort_order": "1",
+                "app_role": [
+                  {
+                    "app_role_id": "101",
+                    "app_role_name": "All Process",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "service_id": "2",
+            "service_name": "CITRUS",
+            "app_role": [
+              {
+                "app_role_id": "21",
+                "app_role_name": "Procurement Office"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "Procurement Buyer"
+              },
+              {
+                "app_role_id": "23",
+                "app_role_name": "Procurement Control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "last_name": "test",
+        "first_name": "thirddddddddddddd",
+        "company_id": "2",
+        "company_name": "(SIE) Sony Interactive Entertainment Inc.",
+        "company_name_en": "Sony Interactive Entertainment Inc.",
+        "email": "third.test-userrrrrrrrrrrrrrrrrrrrr@mail.com",
+        "usertype": "user",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_rolegroup": [
+              {
+                "app_rolegroup_name": "Model Role",
+                "app_rolegroup_id": "1",
+                "sort_order": "7",
+                "app_role": [
+                  {
+                    "app_role_id": "11",
+                    "app_role_name": "10_[RIGEL]For_EMS(Consign)",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Supplier",
+                "app_rolegroup_id": "2",
+                "sort_order": "6",
+                "app_role": [
+                  {
+                    "app_role_id": "21",
+                    "app_role_name": "All supplier",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Product_List",
+                "app_rolegroup_id": "3",
+                "sort_order": "5",
+                "app_role": [
+                  {
+                    "app_role_id": "31",
+                    "app_role_name": "All Product",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Site",
+                "app_rolegroup_id": "4",
+                "sort_order": "4",
+                "app_role": [
+                  {
+                    "app_role_id": "51",
+                    "app_role_name": "All Site",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Factory",
+                "app_rolegroup_id": "5",
+                "sort_order": "3",
+                "app_role": [
+                  {
+                    "app_role_id": "72",
+                    "app_role_name": "All Factory",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Maker",
+                "app_rolegroup_id": "6",
+                "sort_order": "2",
+                "app_role": [
+                  {
+                    "app_role_id": "91",
+                    "app_role_name": "All Partner",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Process",
+                "app_rolegroup_id": "7",
+                "sort_order": "1",
+                "app_role": [
+                  {
+                    "app_role_id": "101",
+                    "app_role_name": "All Process",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "service_id": "2",
+            "service_name": "CITRUS",
+            "app_role": [
+              {
+                "app_role_id": "21",
+                "app_role_name": "Procurement Office"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "Procurement Buyer"
+              },
+              {
+                "app_role_id": "23",
+                "app_role_name": "Procurement Control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "last_name": "test",
+        "first_name": "third",
+        "company_id": "2",
+        "company_name": "(SIE) Sony Interactive Entertainment Inc.",
+        "company_name_en": "Sony Interactive Entertainment Inc.",
+        "email": "third.test-user@mail.com",
+        "usertype": "user",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_rolegroup": [
+              {
+                "app_rolegroup_name": "Model Role",
+                "app_rolegroup_id": "1",
+                "sort_order": "7",
+                "app_role": [
+                  {
+                    "app_role_id": "18",
+                    "app_role_name": "23_[RIGEL]For_Partner(Assign)(Prod_Plan_Only)",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Supplier",
+                "app_rolegroup_id": "2",
+                "sort_order": "6",
+                "app_role": [
+                  {
+                    "app_role_id": "21",
+                    "app_role_name": "All supplier",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Product_List",
+                "app_rolegroup_id": "3",
+                "sort_order": "5",
+                "app_role": [
+                  {
+                    "app_role_id": "31",
+                    "app_role_name": "All Product",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Site",
+                "app_rolegroup_id": "4",
+                "sort_order": "4",
+                "app_role": [
+                  {
+                    "app_role_id": "51",
+                    "app_role_name": "All Site",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Factory",
+                "app_rolegroup_id": "5",
+                "sort_order": "3",
+                "app_role": [
+                  {
+                    "app_role_id": "72",
+                    "app_role_name": "All Factory",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Maker",
+                "app_rolegroup_id": "6",
+                "sort_order": "2",
+                "app_role": [
+                  {
+                    "app_role_id": "91",
+                    "app_role_name": "All Partner",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Process",
+                "app_rolegroup_id": "7",
+                "sort_order": "1",
+                "app_role": [
+                  {
+                    "app_role_id": "101",
+                    "app_role_name": "All Process",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "service_id": "2",
+            "service_name": "CITRUS",
+            "app_role": [
+              {
+                "app_role_id": "21",
+                "app_role_name": "Procurement Office"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "Procurement Buyer"
+              },
+              {
+                "app_role_id": "23",
+                "app_role_name": "Procurement Control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "last_name": "test",
+        "first_name": "third",
+        "company_id": "2",
+        "company_name": "(SIE) Sony Interactive Entertainment Inc.",
+        "company_name_en": "Sony Interactive Entertainment Inc.",
+        "email": "third.test-user@mail.com",
+        "usertype": "user",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_rolegroup": [
+              {
+                "app_rolegroup_name": "Model Role",
+                "app_rolegroup_id": "1",
+                "sort_order": "7",
+                "app_role": [
+                  {
+                    "app_role_id": "20",
+                    "app_role_name": "25_[RIGEL-TRISTAR]For_Partner(API)(Assign&Consign)",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Supplier",
+                "app_rolegroup_id": "2",
+                "sort_order": "6",
+                "app_role": [
+                  {
+                    "app_role_id": "21",
+                    "app_role_name": "All supplier",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Product_List",
+                "app_rolegroup_id": "3",
+                "sort_order": "5",
+                "app_role": [
+                  {
+                    "app_role_id": "31",
+                    "app_role_name": "All Product",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Site",
+                "app_rolegroup_id": "4",
+                "sort_order": "4",
+                "app_role": [
+                  {
+                    "app_role_id": "51",
+                    "app_role_name": "All Site",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Factory",
+                "app_rolegroup_id": "5",
+                "sort_order": "3",
+                "app_role": [
+                  {
+                    "app_role_id": "72",
+                    "app_role_name": "All Factory",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Maker",
+                "app_rolegroup_id": "6",
+                "sort_order": "2",
+                "app_role": [
+                  {
+                    "app_role_id": "91",
+                    "app_role_name": "All Partner",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Process",
+                "app_rolegroup_id": "7",
+                "sort_order": "1",
+                "app_role": [
+                  {
+                    "app_role_id": "101",
+                    "app_role_name": "All Process",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "service_id": "2",
+            "service_name": "CITRUS",
+            "app_role": [
+              {
+                "app_role_id": "21",
+                "app_role_name": "Procurement Office"
+              },
+              {
+                "app_role_id": "22",
+                "app_role_name": "Procurement Buyer"
+              },
+              {
+                "app_role_id": "23",
+                "app_role_name": "Procurement Control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "last_name": "test",
+        "first_name": "third",
+        "company_id": "2",
+        "company_name": "(SIE) Sony Interactive Entertainment Inc.",
+        "company_name_en": "Sony Interactive Entertainment Inc.",
+        "email": "third.test-user@mail.com",
+        "usertype": "user",
+        "used_app": [
+          {
+            "service_id": "1",
+            "service_name": "RIGEL",
+            "app_rolegroup": [
+              {
+                "app_rolegroup_name": "Model Role",
+                "app_rolegroup_id": "1",
+                "sort_order": "7",
+                "app_role": [
+                  {
+                    "app_role_id": "20",
+                    "app_role_name": "25_[RIGEL-TRISTAR]For_Partner(API)(Assign&Consign)",
+                    "sort_order": "26",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Supplier",
+                "app_rolegroup_id": "2",
+                "sort_order": "6",
+                "app_role": [
+                  {
+                    "app_role_id": "21",
+                    "app_role_name": "All supplier",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Product_List",
+                "app_rolegroup_id": "3",
+                "sort_order": "5",
+                "app_role": [
+                  {
+                    "app_role_id": "31",
+                    "app_role_name": "All Product",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Site",
+                "app_rolegroup_id": "4",
+                "sort_order": "4",
+                "app_role": [
+                  {
+                    "app_role_id": "51",
+                    "app_role_name": "All Site",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Factory",
+                "app_rolegroup_id": "5",
+                "sort_order": "3",
+                "app_role": [
+                  {
+                    "app_role_id": "72",
+                    "app_role_name": "All Factory",
+                    "sort_order": "27",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Maker",
+                "app_rolegroup_id": "6",
+                "sort_order": "2",
+                "app_role": [
+                  {
+                    "app_role_id": "91",
+                    "app_role_name": "All Partner",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              },
+              {
+                "app_rolegroup_name": "Process",
+                "app_rolegroup_id": "7",
+                "sort_order": "1",
+                "app_role": [
+                  {
+                    "app_role_id": "101",
+                    "app_role_name": "All Process",
+                    "sort_order": "28",
+                    "default_flg": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

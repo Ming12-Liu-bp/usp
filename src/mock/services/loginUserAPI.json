@@ -1,0 +1,13 @@
+{
+  "transaction_id": "1239",
+  "data": {
+    "user_id": "22",
+    "user_type_id": "3",
+    "user_type_name_en": "bpp-windows",
+    "last_name": "Test",
+    "first_name": "login",
+    "company_id": "1",
+    "company_name": "(SIE) Sony Interactive Entertainment Inc.",
+    "company_name_en": "Sony Interactive Entertainment Inc."
+  }
+}

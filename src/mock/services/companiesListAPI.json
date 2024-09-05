@@ -1,0 +1,32 @@
+{
+  "transaction_id": "1",
+  "user_id": "22",
+  "data": {
+    "company": [
+      {
+        "id": "1",
+        "company_name": "(SIE) Sony Interactive Entertainment Inc.",
+        "company_name_en": "Sony Interactive Entertainment Inc.",
+        "main_flg": "1"
+      },
+      {
+        "id": "2",
+        "company_name": "(SGMO) Sony Global Manufacturing & Operations Corporation ",
+        "company_name_en": "Sony Global Manufacturing & Operations Corporation ",
+        "main_flg": "0"
+      },
+      {
+        "id": "3",
+        "company_name": "(NTTD) NTT DATA Corporation",
+        "company_name_en": "NTT DATA Corporation",
+        "main_flg": "0"
+      },
+      {
+        "id": "4",
+        "company_name": "(123) 123company",
+        "company_name_en": "123company",
+        "main_flg": "0"
+      }
+    ]
+  }
+}

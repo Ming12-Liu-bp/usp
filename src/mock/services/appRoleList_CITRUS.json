@@ -1,0 +1,44 @@
+{
+  "transaction_id": "11111111",
+  "usp_role_id": "2",
+  "company_id": "1",
+  "data": {
+    "app_role_group": [
+      {
+        "app_role_group_name": "CITRUS Roles",
+        "app_role": [
+          {
+            "app_role_id": "1",
+            "app_role_name": "SIE_ADMINISTRATOR",
+            "sort_order": "18",
+            "default_flg": "0"
+          },
+          {
+            "app_role_id": "2",
+            "app_role_name": "SIE_APPROVER",
+            "sort_order": "17",
+            "default_flg": "1"
+          },
+          {
+            "app_role_id": "3",
+            "app_role_name": "SIE_BUYER",
+            "sort_order": "16",
+            "default_flg": "0"
+          },
+          {
+            "app_role_id": "4",
+            "app_role_name": "PARTNER_SALES",
+            "sort_order": "15",
+            "default_flg": "0"
+          },
+          {
+            "app_role_id": "5",
+            "app_role_name": "EMS_SALES",
+            "sort_order": "14",
+            "default_flg": "0"
+          }
+        ]
+      }
+    ]
+  }
+}

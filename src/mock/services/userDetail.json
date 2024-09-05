@@ -1,0 +1,89 @@
+{
+  "transaction_id": "301",
+  "user_id": "1",
+  "data": {
+    "user_id": "1",
+    "company_id": "1",
+    "company_name": "(CA) CompanyA",
+    "company_name_en": "CompanyA",
+    "last_name": "test",
+    "first_name": "first",
+    "email": "first.test-user@mail.com",
+    "phone_number": "0312345678",
+    "department": "sfm1",
+    "language_id": "1",
+    "language_name": "English",
+    "country_id": "2",
+    "country_name": "JP",
+    "applicant_id": "50",
+    "applicant_last_name": "appricant",
+    "applicant_first_name": "user1",
+    "application_date": "2019/11/11",
+    "approver_id": "100",
+    "approver_last_name": "approver",
+    "approver_first_name": "user1",
+    "approval_date": "2019/11/22",
+    "services": [
+      {
+        "service_id": "3",
+        "service_name": "MAQROS",
+        "usp_role_id": "34",
+        "usp_role_name": "ITS",
+        "app_role": [
+          {
+            "app_role_id": "1",
+            "app_role_name": "PS4",
+            "sort_order": "22"
+          },
+          {
+            "app_role_id": "2",
+            "app_role_name": "DS4",
+            "sort_order": "100"
+          }
+        ]
+      },
+      {
+        "service_id": "2",
+        "service_name": "CITRUS",
+        "usp_role_id": "22",
+        "usp_role_name": "Procurement Buyer",
+        "app_role": [
+          {
+            "app_role_id": "1",
+            "app_role_name": "PS4",
+            "sort_order": "22"
+          },
+          {
+            "app_role_id": "2",
+            "app_role_name": "DS4",
+            "sort_order": "100"
+          }
+        ]
+      },
+
+      {
+        "service_id": "1",
+        "service_name": "RIGEL",
+        "usp_role_id": "12",
+        "usp_role_name": "ITS",
+        "app_role": [
+          {
+            "app_role_id": "1",
+            "app_role_name": "Full Access",
+            "sort_order": "9"
+          },
+          {
+            "app_role_id": "7",
+            "app_role_name": "PS4",
+            "sort_order": "1"
+          },
+          {
+            "app_role_id": "8",
+            "app_role_name": "DS4",
+            "sort_order": "10"
+          }
+        ]
+      }
+    ]
+  }
+}

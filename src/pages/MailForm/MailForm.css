@@ -1,0 +1,36 @@
+.usp-container {
+  margin-top: -64px;
+}
+.usp-sub-title {
+  padding-top: 8px;
+  color: rgb(0, 0, 0, 0.5);
+}
+.usp-card-title {
+  margin-top: 8px;
+}
+.usp-form {
+  margin-top: 10px;
+}
+.usp-textarea-reason {
+  line-height: 115%;
+  padding-bottom: 18px;
+}
+.usp-textarea-reason :deep(.v-field__input) {
+  height: 117px;
+}
+:deep(.v-messages__message){
+  letter-spacing: normal;
+}
+.usp-snackbar {
+  top: -65px;
+}
+.usp-base-errorBody {
+  padding-top: 4px;
+  letter-spacing: normal;
+}
+:deep(.v-input--error .v-field--error .v-field__input){
+  caret-color: rgb(255, 82, 82);
+}
+:deep(.v-field--focused .v-field__input){
+  caret-color: rgb(25, 118, 210);
+}

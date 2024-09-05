@@ -1,0 +1,20 @@
+{
+  "transaction_id": "1234",
+  "application_id": "55",
+  "data": {
+    "application_id": "55",
+    "status": "applying",
+    "company_id": "1",
+    "company_name": "NTT DATA",
+    "company_name_en": "NTT DATA",
+    "last_name": "detail",
+    "first_name": "test",
+    "email": "application_detail@test.com",
+    "phone_number": "0312345678",
+    "department": "sfm1",
+    "language_id": "1",
+    "language_name": "Japanese",
+    "country_id": "1",
+    "country_name": "JP"
+  }
+}
