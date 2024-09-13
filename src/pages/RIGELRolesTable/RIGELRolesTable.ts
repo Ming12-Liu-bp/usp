@@ -71,15 +71,13 @@ export default function RIGELRolesTable() {
       user_type = envConstants().organization_admin;
     }
 
-    const queries = {
+    axiosGet(userListAPi, {
       company_id: selectedSearchCompany.value,
       service_id: envConstants().rigel_id,
       name: searchName.value,
       email: searchEmail.value,
       user_type_id: user_type,
-    };
-
-    axiosGet(userListAPi, { params: queries })
+    })
       .then(function (res: any) {
         const userInfo = res.data.user;
         for (const list in userInfo) {

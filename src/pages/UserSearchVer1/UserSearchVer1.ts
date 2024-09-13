@@ -242,15 +242,12 @@ export default function UserSearchVer1() {
     }
     setTrueSearching(true);
 
-    const queries = {
+    axiosGet(userListAPi, {
       company_id: selectedSearchCompany.value,
       service_id: selectedSearchService.value,
       name: searchName.value,
       email: searchEmail.value,
       user_type_id: user_type_id.value,
-    };
-    axiosGet(userListAPi, {
-      params: queries,
     })
       .then((res: any) => {
         maxUserSize.value = res.data?.max_user_size;

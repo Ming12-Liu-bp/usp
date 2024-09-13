@@ -193,11 +193,10 @@ export default function ChangeAppsUsage() {
 
   // 登録可能アプリ一覧取得API実行メソッド
   async function serviceSet(uid: any, cid: any) {
-    const queries = { company_id: cid };
     const url = formatUrl(servicesListParamsAPi, { userId: uid });
     try {
       const res: any = await axiosGet(url, {
-        params: queries,
+        company_id: cid,
       });
 
       selectableServices = [];

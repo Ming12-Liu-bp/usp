@@ -280,15 +280,14 @@ export default function SettingConfirmationBox(emit: any, props: any) {
     if (usertype.value) {
       user_type = envConstants().organization_admin;
     }
-    const queries = {
+
+    axiosGet(userListAPi, {
       company_id: selectedSearchCompany,
       service_id: selectedSearchService,
       name: searchName,
       email: searchEmail,
       user_type_id: user_type,
-    };
-
-    axiosGet(userListAPi, { params: queries })
+    })
       .then((res: any) => {
         const userInfoList = res.data.user;
         for (const userInfo in userInfoList) {
@@ -315,12 +314,9 @@ export default function SettingConfirmationBox(emit: any, props: any) {
   }
   // 登録可能アプリ一覧取得API実行メソッド
   async function serviceSet(uid: any, cid: any) {
-    const queries = { company_id: cid };
     const url = formatUrl(servicesListParamsAPi, { userId: uid });
     try {
-      const res: any = await axiosGet(url, {
-        params: queries,
-      });
+      const res: any = await axiosGet(url, { company_id: cid });
 
       selectableServices = [];
       const selectableServiceInfo = res.data.service;
