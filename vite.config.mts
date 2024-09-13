@@ -13,6 +13,7 @@ import Vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
 import { formatUrl } from "./src/constants/apiConstants";
 
 export default defineConfig({
+  base: "/usp/app/",
   plugins: [
     lazyImport({
       resolvers: [
@@ -77,11 +78,10 @@ export default defineConfig({
     }),
   ],
   build: {
-    minify: "terser",
     terserOptions: {
       compress: {
-        // drop_console: true,
-        // drop_debugger: true
+       drop_console: true,
+       drop_debugger: true,
       },
     },
   },

@@ -21,7 +21,7 @@ registerPlugins(app);
 // mock スイッチ
 if (import.meta.env.VITE_APP_MOCK === "on") {
   console.log("===================MOCK MODEL======================");
-  import("@/mock/index");
+  // import("@/mock/index");
   setTimeout(() => {
     app.mount("#app");
   }, 1000);
