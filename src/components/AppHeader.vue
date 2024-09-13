@@ -69,13 +69,13 @@ function signOut() {
   appStore.$reset();
   const businessStore = useBusinessStore();
   businessStore.$reset();
-  // location.href = "/usp/logout";
+  location.href = "/usp/logout";
   // TODO
-  router.push("/usp/logout").then(() => {
-    if (window.location.hash) {
-      window.history.replaceState(null, "", "/usp/logout");
-    }
-  });
+  // router.push("/usp/logout").then(() => {
+  //   if (window.location.hash) {
+  //     window.history.replaceState(null, "", "/usp/logout");
+  //   }
+  // });
 }
 
 function toSearch() {
