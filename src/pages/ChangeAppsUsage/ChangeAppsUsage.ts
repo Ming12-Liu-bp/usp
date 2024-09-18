@@ -38,7 +38,7 @@ export default function ChangeAppsUsage() {
   const hiddenSelectedServices = ref<any>([]);
   const selectedServices = ref<any>([]);
   const selectableServiceHidden = computed(() => {
-    return selectableServices.filter(function (el: any) {
+    return selectableServices.value.filter(function (el: any) {
       return !envConstants().hidden.some((e: any) => e == el.id);
     });
   });
@@ -47,7 +47,7 @@ export default function ChangeAppsUsage() {
   let user_type_id = "";
 
   let userDetailInfoService = <any>[];
-  let selectableServices = <any>[];
+  const selectableServices = ref<any>([]);
   // let selectableUSPs = <any>[];
   // let selectableAppRoleGroup = <any>[];
 
@@ -199,11 +199,11 @@ export default function ChangeAppsUsage() {
         company_id: cid,
       });
 
-      selectableServices = [];
+      selectableServices.value = [];
       const selectableServiceInfo = res.data.service;
       if (selectableServiceInfo.length !== 0) {
         for (const list in selectableServiceInfo) {
-          selectableServices.push({
+          selectableServices.value.push({
             name: selectableServiceInfo[list].name,
             id: selectableServiceInfo[list].id,
             registerable_status:

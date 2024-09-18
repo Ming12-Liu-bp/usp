@@ -23,7 +23,7 @@ export default function SettingConfirmationBox(emit: any, props: any) {
   const firstSelectServices = <any>[];
   const firstSelectUSPs = <any>[];
 
-  let selectableServices = <any>[];
+  const selectableServices = ref<any>([]);
 
   // computed
   const selectedSearchCompany = computed(() => appStore.selectedSearchCompany);
@@ -33,7 +33,7 @@ export default function SettingConfirmationBox(emit: any, props: any) {
   const userList = computed(() => appStore.userList);
   const usertype = computed(() => appStore.usertype);
   const selectableServiceHidden = computed(() => {
-    return selectableServices.filter(function (el: any) {
+    return selectableServices.value.filter(function (el: any) {
       return !envConstants().hidden.some((e: any) => e == el.id);
     });
   });
@@ -318,11 +318,11 @@ export default function SettingConfirmationBox(emit: any, props: any) {
     try {
       const res: any = await axiosGet(url, { company_id: cid });
 
-      selectableServices = [];
+      selectableServices.value = [];
       const selectableServiceInfo = res.data.service;
       if (selectableServiceInfo.length !== 0) {
         for (const list in selectableServiceInfo) {
-          selectableServices.push({
+          selectableServices.value.push({
             name: selectableServiceInfo[list].name,
             id: selectableServiceInfo[list].id,
             registerable_status:

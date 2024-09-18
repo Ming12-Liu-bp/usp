@@ -237,8 +237,9 @@ export default function UserSearchVer1() {
   function getUserList() {
     setTrueShow(false);
     users = [];
+    let user_type = "";
     if (usertype.value) {
-      user_type_id.value = envConstants().organization_admin;
+      user_type = envConstants().organization_admin;
     }
     setTrueSearching(true);
 
@@ -247,7 +248,7 @@ export default function UserSearchVer1() {
       service_id: selectedSearchService.value,
       name: searchName.value,
       email: searchEmail.value,
-      user_type_id: user_type_id.value,
+      user_type_id: user_type,
     })
       .then((res: any) => {
         maxUserSize.value = res.data?.max_user_size;
